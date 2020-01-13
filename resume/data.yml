@@ -1,30 +1,39 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Shawn
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  last: Roller
+about: Hi, my name is Shawn.  I'm a fullstack software developer, leader, and manager with over 10 years of experience.
+      I'm passionate about technology and writing software - deploying something great is the best feeling in the world!
+      I have broad experience with the full SDLC, thrive in a startup environment, and have a passion for writing functional,
+      testable, maintainable code.
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1983
+  location: Florida
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: TechStyle, Inc.
+  position: Software Engineering Manager
+  timeperiod: since May 2018
+  description: Managing a small team of Senior Engineers while being the solo developer of the mobile front-end applications.
+        Representing the team in the company-wide Architecture Group where I help plan the future of our platforms and create software and coding standards,
+        create micro service templates, and assess new technologies that will solve technology problems across the company in the future.
+        Fullstack development including MS SQL, Node.js, Swift, Objective-C, and React Native.
   website: https://example.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: TechStyle, Inc.
+  position: Mobile Software Engineer
+  timeperiod: March 2017 - May 2018
+  description: Took over sole development of the backoffice mobile applications for iOS platform.  Developed new features and toolsets
+        to improve efficiency of processes in the company's fulfillment centers around the globe, used daily by ~2000 end users.
+        For the main iOS application, I converted much of the codebase from Objective-C to Swift and built new features in Swift.  Later added support
+        for and new features in React Native, which is what I am using to develop new tools.  Built Apple Watch extensions to support
+        hands-free operation for fulfillment center operations.  Integrated iOS/Watch devices with various hardware, including barcode/QR code scanners,
+        ZPL printers, Raspberry Pi, and automation solutions.
 
-- company: Company C
+- company: TechStyle, Inc.
   position: Trainee
   timeperiod: March 2014 - December 2014
   description: Making coffee and baking cookies.
