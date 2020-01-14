@@ -113,10 +113,13 @@
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
               <span class="section-content__text--light">{{ experience.description }}</span>
+              <br>
+              <br>
             </a>
           </div>
         </div>
 
+        <a v-if="person.contact.education">
         <div class="section">
           <div class="section-headline">
             <i class="section-headline__icon material-icons">school</i>{{ lang.education }}
@@ -136,6 +139,7 @@
             </a>
           </div>
         </div>
+        </a>
 
         <div
           v-if="person.projects"

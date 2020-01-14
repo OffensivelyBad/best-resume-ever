@@ -3,99 +3,106 @@ name:
   first: Shawn
   middle:
   last: Roller
-about: Hi, my name is Shawn.  I'm a fullstack software developer, leader, and manager with over 10 years of experience.
+about: Hi, my name is Shawn.  I'm a full-stack software developer, leader, and manager with over 10 years of experience.
       I'm passionate about technology and writing software - deploying something great is the best feeling in the world!
       I have broad experience with the full SDLC, thrive in a startup environment, and have a passion for writing functional,
       testable, maintainable code.
 position: Software Developer
 
-birth:
-  year: 1983
-  location: Florida
+# birth:
+#   year: 1983
+#   location: Florida
 
 experience:
 - company: TechStyle, Inc.
   position: Software Engineering Manager
   timeperiod: since May 2018
-  description: Managing a small team of Senior Engineers while being the solo developer of the mobile front-end applications.
-        Representing the team in the company-wide Architecture Group where I help plan the future of our platforms and create software and coding standards,
-        create micro service templates, and assess new technologies that will solve technology problems across the company in the future.
-        Fullstack development including MS SQL, Node.js, Swift, Objective-C, and React Native.
-  website: https://example.com
+  description: Managing a small team of Senior Engineers while being the solo developer of the mobile applications.
+        As part of the company-wide architecture group, I help make technology decisions and assess new platforms and techniques.
+        Introduced microservices to split up a monolithic application.  Introduced Docker to containerize apps.
+        Full-stack development including MS SQL, Node.js, Swift, Objective-C, React Native.
 
 - company: TechStyle, Inc.
   position: Mobile Software Engineer
   timeperiod: March 2017 - May 2018
-  description: Took over sole development of the backoffice mobile applications for iOS platform.  Developed new features and toolsets
-        to improve efficiency of processes in the company's fulfillment centers around the globe, used daily by ~2000 end users.
-        For the main iOS application, I converted much of the codebase from Objective-C to Swift and built new features in Swift.  Later added support
-        for and new features in React Native, which is what I am using to develop new tools.  Built Apple Watch extensions to support
-        hands-free operation for fulfillment center operations.  Integrated iOS/Watch devices with various hardware, including barcode/QR code scanners,
-        ZPL printers, Raspberry Pi, and automation solutions.
+  description: Lead developer for internal mobile applications.
+        Introduced Swift and React Native into legacy Objective-C applications.
+        Full-stack development - MS SQL, Node.js, Swift, Objective-C, React Native.
 
 - company: TechStyle, Inc.
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  position: Senior Data Analyst
+  timeperiod: April 2015 - February 2017
+  description: As a Data Analyst, I was the primary resource for all data related to global fulfillment centers.
+        Supported the business with data to drive operational optimizations.
+        Key role in building a labor management system to automate decisions that typically require human management.
 
-education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- company: JustFab
+  position: Data Analyst
+  timeperiod: February 2013 - March 2015
+  description: As a Data Analyst for a fashion startup, I was exposed to many parts of the business.
+        I worked closely with accounting to create critical financial reports, identified and fixed bugs,
+        and supported the business with the data needed to drive efficiencies at the fulfillment centers.
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+# education:
+# - degree: Master of Arts
+#   timeperiod: March 2012 - December 2013
+#   description: Major in Hacking and Computer Penetration, University A, New York, USA.
+#   website: https://example.com
+
+# - degree: Bachelor of Science
+#   timeperiod: March 2009 - December 2011
+#   description: Major in Engineering, University B, Los Angeles, USA.
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: SQL
+  level: 90
+- name: Objective-C
   level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
+- name: Swift
+  level: 85
+- name: Node.js
+  level: 80
+- name: React Native
+  level: 65
+- name: TypeScript
+  level: 50
+- name: JavaScript
+  level: 80
+knowledge: I began learning iOS development with Obj-C in 2013 in my free time and 
+  fell in love with mobile development.
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: NShape
+  platform: iOS
+  description: A fitness app that intelligently builds a workout based on your goals and time available.
+  url: https://apps.apple.com/us/app/nshape/id1118494093
+
+- name: NShape Sets
+  platform: iOS and watchOS
+  description: An exercise app that helps you track sets during a workout. In development...
+  url: 
 
 hobbies:
-- name: Video Games
+- name: Raspberry Pi
   iconClass: fa fa-gamepad
   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
+- name: Guitar and Piano
+  iconClass: fa fa-piano
   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# contributions:
+# - name: best-resume-ever
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: sdroller@hotmail.com
+  phone: 856-556-0582
+  street: 1505 Cadence Ct.
+  city: Louisville
+  # website: https://www.offensively-bad.com/slasherstickers
+  github: offensivelybad
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

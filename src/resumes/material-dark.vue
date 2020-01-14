@@ -59,7 +59,7 @@
         </div>
         <div class="text">
           <span>@{{person.contact.github}}</span>
-          <span>github.com/{{person.contact.github}}</span>
+          <!-- <span>github.com/{{person.contact.github}}</span> -->
         </div>
       </div>
     </a>
