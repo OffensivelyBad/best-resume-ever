@@ -1,4 +1,5 @@
 /* #*/ export const PERSON = `
+iscoverletter: false
 name:
   first: Shawn
   middle:
@@ -12,6 +13,23 @@ position: Software Developer
 # birth:
 #   year: 1983
 #   location: Florida
+
+coverletter:
+  title: Dear Hiring Manager,
+  body1: I am writing to you regarding the job posting for Software Engineer, iOS at Wikimedia.  
+        I have over ten years of experience in software development - 
+        over six years working with iOS.  
+  body2: I have been passionate about working with mobile technologies 
+        since I began learning Objective-C nearly 7 years ago.  In my free time, I have been designing and
+        developing my own apps.  For the past three years I have been fortunate enough to bring my passion to 
+        my professional life, where I have excelled.
+  body3: I have also been a supporter and donor of Wikipedia for many years.  I believe in the promise of
+        the open web - to give all people equal access to the wealth of human knowledge.  For these reasons and more, 
+        I would be a great fit for this position.  I look forward to hearing from you.
+  closing: Thank you,
+  signature: Shawn Roller
+
+        
 
 experience:
 - company: TechStyle, Inc.
@@ -85,11 +103,9 @@ projects:
 hobbies:
 - name: Raspberry Pi
   iconClass: fa fa-gamepad
-  url: https://example.com
 
 - name: Guitar and Piano
   iconClass: fa fa-piano
-  url: https://example.com
 
 # contributions:
 # - name: best-resume-ever

@@ -92,7 +92,55 @@
         </div>
       </div>
 
-      <div class="content__right">
+      <div 
+        v-if="person.iscoverletter"
+        class="content__right"
+      >
+        <div class="section">
+
+          <div class="section-content">
+
+              <span class="section-content__header">{{ person.coverletter.title }}</span>
+              <br>
+              <br>
+              <span class="section-content__body">{{ person.coverletter.body1 }}</span>
+              <br>
+              <br>
+              <span class="section-content__body">{{ person.coverletter.body2 }}</span>
+              <br>
+              <br>
+              <span class="section-content__body">{{ person.coverletter.body3 }}</span>
+              <br>
+              <br>
+              <span class="section-content__body">{{ person.coverletter.closing }}</span>
+              <br>
+              <br>
+              <br>
+              <span class="section-content__body">{{ person.coverletter.signature }}</span>
+          </div>
+        </div>
+
+        <!-- <div
+          v-if="person.hobbies"
+          class="section">
+          <div class="section-headline">
+            <i class="section-headline__icon material-icons">code</i>{{ lang.hobbies }}
+          </div>
+
+          <div class="section-content-grid">
+            <a v-for="(hobby, index) in person.hobbies" :key="index"
+              class="section-content__item-grid"
+              :href="hobby.url">
+              <span class="section-content__header"> {{ hobby.name }} </span>
+            </a>
+          </div>
+        </div> -->
+      </div>
+
+      <div 
+        v-if="!person.iscoverletter"
+        class="content__right"
+      >
         <div class="section">
           <div class="section-headline">
             <i class="section-headline__icon material-icons">work</i>{{ lang.experience }}
@@ -197,8 +245,8 @@ export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
-@accent-color: #34495E;
-@banner-color: #42b883;
+@accent-color: #3f4166;
+@banner-color: #ee4665;
 @banner-height: 120px;
 @picture-size: 120px;
 @picture-offset: 35px;
@@ -331,6 +379,11 @@ a {
   &__subheader {
     display: block;
     font-weight: 400;
+  }
+
+  &__body {
+    display: block;
+    font-weight: 300;
   }
 
   &__plain,
