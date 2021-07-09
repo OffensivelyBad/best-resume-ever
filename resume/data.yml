@@ -33,11 +33,21 @@ coverletter:
 
 experience:
 - company: TechStyle, Inc.
+  position: Staff Engineer, Full Stack
+  timeperiod: since July 2021
+  description: Leading a team of back-end senior engineers and primary engineer of mobile applications.
+        My responsibilities include leading projects for our Evolve platform from ideation to deployment, 
+        and working closely with tech, business, and leadership across the company.
+        The platform is critical to operations and transacts millions of times per day, so performance is key.
+        Technologies include React Native Web, MS SQL, Node.js, Swift, Objective-C, and 
+
+- company: TechStyle, Inc.
   position: Software Engineering Manager
-  timeperiod: since May 2018
-  description: Managing a small team of Senior Engineers while being the solo developer of the mobile applications.
+  timeperiod: May 2018 - July 2021
+  description: Managing a small team of Senior Engineers while being the solo engineer of the mobile applications.
         As part of the company-wide architecture group, I help make technology decisions and assess new platforms and techniques.
         Introduced microservices to split up a monolithic application.  Introduced Docker to containerize apps.
+        Managed a front-end engineering team for the company Retail and Warehouse management applications used by thousands of employees.
         Full-stack development including MS SQL, Node.js, Swift, Objective-C, React Native.
 
 - company: TechStyle, Inc.
@@ -53,6 +63,7 @@ experience:
   description: As a Data Analyst, I was the primary resource for all data related to global fulfillment centers.
         Supported the business with data to drive operational optimizations.
         Key role in building a labor management system to automate decisions that typically require human management.
+        MS SQL, SSRS, Node.js, Cold Fusion Modeling Language
 
 - company: JustFab
   position: Data Analyst
@@ -60,6 +71,7 @@ experience:
   description: As a Data Analyst for a fashion startup, I was exposed to many parts of the business.
         I worked closely with accounting to create critical financial reports, identified and fixed bugs,
         and supported the business with the data needed to drive efficiencies at the fulfillment centers.
+        MS SQL, SSRS, Cold Fusion Modeling Language, Node.js
 
 # education:
 # - degree: Master of Arts
@@ -74,19 +86,19 @@ experience:
 # skill level goes 0 to 100
 skills:
 - name: SQL
-  level: 90
+  level: 85
 - name: Objective-C
-  level: 80
+  level: 90
 - name: Swift
   level: 85
 - name: Node.js
-  level: 80
+  level: 75
 - name: React Native
-  level: 65
+  level: 90
 - name: TypeScript
-  level: 50
+  level: 90
 - name: JavaScript
-  level: 80
+  level: 90
 knowledge: I began learning iOS development with Obj-C in 2013 in my free time and 
   fell in love with mobile development.
 projects:
@@ -115,8 +127,9 @@ hobbies:
 contact:
   email: sdroller@hotmail.com
   phone: 856-556-0582
-  street: 1505 Cadence Ct.
-  city: Louisville
+  street: 1427 Windmill Pointe Road
+  city: Palm Harbor
+  state: FL
   # website: https://www.offensively-bad.com/slasherstickers
   github: offensivelybad
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
